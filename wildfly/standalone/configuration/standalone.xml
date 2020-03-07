@@ -526,4 +526,12 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+    <deployments>
+        <deployment name="tmm-web.war" runtime-name="tmm-web.war">
+            <content sha1="6d5ec31a338462bb454f3158f34d88f264d38d65"/>
+        </deployment>
+        <deployment name="tmm-server.war" runtime-name="tmm-server.war">
+            <content sha1="e18f8877a9d947c85a4a38939781885f0ee1939f"/>
+        </deployment>
+    </deployments>
 </server>
