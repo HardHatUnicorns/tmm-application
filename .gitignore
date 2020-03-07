@@ -73,3 +73,7 @@ fabric.properties
 
 wildfly/standalone/deployments/*.war
 
+/wildfly/standalone/configuration/standalone_xml_history/
+/wildfly/standalone/tmp/
+/wildfly/standalone/log/
+/wildfly/standalone/data/
